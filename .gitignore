@@ -16,3 +16,6 @@ __pycache__/
 
 # Whisperモデルキャッシュ（大容量）
 # ~/.cache/huggingface/ はホームディレクトリなので対象外
+
+a.out
+*.out
