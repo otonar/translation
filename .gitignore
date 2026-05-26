@@ -1,0 +1,18 @@
+# 認証情報・APIキー
+.env
+.env.*
+api_key.txt
+*.pem
+*.key
+*.p12
+
+# 翻訳ログ（個人情報を含む可能性あり）
+logs/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Whisperモデルキャッシュ（大容量）
+# ~/.cache/huggingface/ はホームディレクトリなので対象外
